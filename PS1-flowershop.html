@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="PS1-flowershop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#"> 🌻 Jozel's Flowers</a>
+      </div>
+      <ul>
+        <li><a href="html.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title" style="color:#000000">Shop now at the best Flower Shop in town</div><br> 
+    <p style="color:#000000; font-size: 20px;"> Jozel's Flower offer any kind of flower arrangement for any event, 
+        including bouquets for surprise packages for your loved ones, peace offerings, weddings, funerals, condolence stands, 
+        and inaugural flowers arrangements with vases and basket arrangements. We provide free shipping 
+        and delivery in every part of the Philippines.</p>
+            </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {font-family: "Lato", sans-serif;}
+    
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 25%;
+    }
+    
+    .tablink:hover {
+      background-color: #777;
+    }
+    
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 50px;
+      text-align: center;
+    }
+    
+    #A {background-color:rgb(250, 248, 248);}
+    #B {background-color:rgb(250, 248, 248);}
+    #C {background-color:rgb(250, 248, 248);}
+    #D {background-color:rgb(250, 248, 248);}
+    </style>
+    
+    <div id="A" class="tabcontent">
+    <img src="boquet (1).jpg" alt="wedding" width="400" height="300"> &nbsp; &nbsp;
+    <img src="boquet (2).jpg" alt="wedding" width="400" height="300"> &nbsp;&nbsp;
+    <img src="boquet (3).jpg" alt="wedding" width="400" height="300"> <br> <br>
+      <h1 style= color:black > BOQUETS FLOWERS</h1>
+      <a href="#">Click for more info</a>
+    </div>
+    
+    <div id="B" class="tabcontent">
+    <img src="funeral (1).jpg" alt="debut" width="400" height="300"> &nbsp; &nbsp;
+    <img src="funeral (2).jpg" alt="debut" width="400" height="300"> &nbsp;&nbsp;
+    <img src="funeral (3).jpg" alt="debut" width="400" height="300"> <br> <br>
+      <h1 style= color:black >  FUNERAL FLOWERS</h1>
+      <a href="#">Click for more info</a>
+    </div>
+    
+    <div id="C" class="tabcontent">
+    <img src="wedding (1).jpeg" alt="Girl in a jacket" width="400" height="300"> &nbsp; &nbsp;
+    <img src="wedding (2).jpeg" alt="Girl in a jacket" width="400" height="300"> &nbsp;&nbsp;
+    <img src="wedding (3).jpeg" alt="Girl in a jacket" width="400" height="300"> <br> <br>
+      <h1 style= color:black > WEDDING FLOWERS</h1>
+      <a href="#">Click for more info</a>
+    </div>
+    
+    <div id="D" class="tabcontent">
+      <img src="inaugural (1).png" alt="Girl in a jacket" width="400" height="300"> &nbsp; &nbsp;
+        <img src="inaugural (2).png" alt="Girl in a jacket" width="400" height="300"> &nbsp;&nbsp;
+        <img src="inaugural (3).png" alt="Girl in a jacket" width="400" height="300"> <br> <br>
+      <h1 style= color:black > INAUGURAL FLOWERS</h1>
+      <a href="#">Click for more info</a>
+    </div>
+    
+    <button class="tablink" onclick="openCity('A', this, 'red')" id="defaultOpen">BOQUETS</button>
+    <button class="tablink" onclick="openCity('B', this, 'green')">FUNERAL</button>
+    <button class="tablink" onclick="openCity('C', this, 'blue')">WEDDING</button>
+    <button class="tablink" onclick="openCity('D', this, 'orange')">INAUGURAL</button>
+    
+    <script>
+    function openCity(cityName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(cityName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    
+    }
+    document.getElementById("defaultOpen").click();
+    </script>
+
+  <style>
+  p {text-align: center;}
+  </style>
+
+  <body style="background-color:rgba(191, 240, 222, 0.4)"><br> <br> <br>  <br> 
+  <p style= "color:black;"> 📍 ADDRESS</p> <br>
+  <p> Block 5, Lot 14, Ramitex Street, Litex Village, San Jose, Rodriguez, Rizal</p> <br> <hr> <br>
+  <p style= "color:black;"> 📍 CONTACT DETAILS</p> <br>
+  <p> 📱 09065841316</p> <br>
+  <p> 📱 09276247587</p> <br> <hr> <br>
+  <p style= "color:black; font-size:40px"> "Our goal is to provide you with the best and quality flowers around" </p> <br> <br>
+  </head>
+</body>
+  </html>
+  
